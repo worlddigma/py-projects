@@ -1,0 +1,8 @@
+def CountElements(arr):
+    if arr == []:
+        return 0
+    else:
+        return 1 + CountElements(arr[1:])
+    
+arr = [1,2,3,4]
+print(CountElements(arr))

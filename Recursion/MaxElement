@@ -1,0 +1,11 @@
+def MaxElement(arr):
+    if len(arr) == 1:
+        return arr[0]
+    else:
+        if (arr[0] > arr[1]):
+            return 
+        else:
+            return MaxElement(arr[1:])
+
+arr = [1,2,3,4,5,2,1]
+print(MaxElement(arr))
